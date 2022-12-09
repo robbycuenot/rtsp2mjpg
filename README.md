@@ -19,6 +19,8 @@ Still snapshot: `http://<IP>:8090/still.jpg`
 
 *The ffserver.conf values are set for Wyze Cam V2 output. If you need to customize it you can pull the source and build with your own values.*
 
+ffserver.conf man page: https://manpages.ubuntu.com/manpages/bionic/man1/ffserver-all.1.html
+
 
 #### Docker Compose
 
