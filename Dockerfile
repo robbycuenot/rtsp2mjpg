@@ -4,10 +4,10 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y vlc
 
 # Copy the VLC script to the container
-COPY vlc-script.sh /
+COPY stream.sh /
 
 # Make the VLC script executable
-RUN chmod +x /vlc-script.sh
+RUN chmod +x /stream.sh
 
 # Set the default command to run the VLC script
-CMD ["/vlc-script.sh"]
+CMD ["/stream.sh"]
